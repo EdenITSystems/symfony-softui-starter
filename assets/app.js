@@ -11,8 +11,10 @@ import './styles/app.scss';
 // you can specify whith plugins you need
 import { Tooltip, Toast, Popover } from 'bootstrap';
 
-import './js/soft-ui-dashboard'
-import './js/soft-ui-dashboard?v=1.0.3'
+import 'popper.js/dist/popper'
+import 'bootstrap/dist/js/bootstrap'
+import 'perfect-scrollbar/dist/perfect-scrollbar'
+import 'smooth-scrollbar/dist/smooth-scrollbar'
 
 // start the Stimulus application
 import './bootstrap';
